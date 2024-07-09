@@ -1,0 +1,58 @@
+                          DOM
+
+
+
+1)Explica qué es el DOM (Document Object Model) y cómo se utiliza en JavaScript para
+interactuar con el HTML.
+
+El DOM (Document Object Model) es una interfaz de programación que representa un documento HTML como un árbol de nodos.
+
+Cada nodo representa un elemento HTML (párrafo, imagen, encabezado, etc.).
+JavaScript puede acceder, modificar y manipular el contenido de un documento HTML utilizando el DOM.
+
+¿Cómo se utiliza el DOM en JavaScript?
+
+Acceder a nodos: getElementById(), getElementsByTagName(), querySelector().
+Modificar nodos: Cambiar propiedades, contenido o eliminar nodos.
+Eventos: Asociar eventos a nodos (clic, entrada de teclado).
+Ejemplos:
+
+Modificar contenido de un párrafo.
+Cambiar color de un encabezado.
+Agregar evento de clic a un botón.
+
+
+
+2) Describe los diferentes métodos de selección de elementos HTML en JavaScript.
+
+1. getElementById(id):
+
+Descripción: Selecciona un único elemento HTML por su atributo id
+
+
+2. getElementsByTagName(tagName):
+
+Descripción: Selecciona una lista de elementos HTML por su etiqueta HTML (por ejemplo, h1, p, img).
+
+
+3.  getElementsByClassName(className):
+
+Descripción: Selecciona una lista de elementos HTML por su clase CSS
+
+4. . querySelector(selector):
+
+Descripción: Selecciona un único elemento HTML utilizando un selector CSS.
+
+
+
+3) Explica cómo se pueden modificar los estilos de los elementos HTML utilizando JavaScript
+
+
+1. Modificando propiedades CSS directamente:
+
+Descripción: Accede a una propiedad CSS específica de un elemento y la modifica directamente.
+
+
+2. Utilizando el atributo style:
+
+Descripción: Accede a la cadena de estilo completa de un elemento y la modifica.

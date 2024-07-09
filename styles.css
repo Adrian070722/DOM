@@ -1,0 +1,21 @@
+.documento {
+    color: #FFF;
+    width: 100vw;
+    border-radius: 1px;
+    padding: 20rem;
+    background: black; 
+     
+
+    
+}
+
+.footer-ul{
+    color: #FFF;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    padding: 20rem;
+    background: black; 
+     
+}
